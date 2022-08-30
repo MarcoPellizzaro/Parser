@@ -1,5 +1,4 @@
-4
+3
 (/neg a)
 (/wedge (/vee a nh) (/neg j))
 a
-(/neg )
