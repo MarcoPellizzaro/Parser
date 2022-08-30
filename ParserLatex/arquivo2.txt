@@ -1,0 +1,3 @@
+2
+(/rigtharrow a b)
+(/neg )
