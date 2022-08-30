@@ -125,8 +125,6 @@ if int(final) == len(expressoes) - 1:
         i = 0
         n = len(exprec)
 
-        print("Expressão: " + exprec, end="")
-
         while i < n:
             if exprec[i] == "(":
                 AbreParen = i
@@ -159,9 +157,9 @@ if int(final) == len(expressoes) - 1:
             i += 1
 
         if estado == "valido":
-            print("; Condição: Válida")
+            print("Válida")
         else:
-            print("; Condição: Inválida")
+            print("Inválida")
 
         x += 1
 else:
